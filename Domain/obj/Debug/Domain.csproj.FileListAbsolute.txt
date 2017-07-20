@@ -1,0 +1,5 @@
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\Domain\bin\Debug\Domain.dll
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\Domain\bin\Debug\Domain.pdb
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\Domain\obj\Debug\Domain.dll
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\Domain\obj\Debug\Domain.pdb

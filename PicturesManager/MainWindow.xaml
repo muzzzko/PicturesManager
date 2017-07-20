@@ -1,0 +1,28 @@
+﻿<Window x:Class="PicturesManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PicturesManager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="378" Width="570" MinWidth="570" MaxWidth="570" MinHeight="378" MaxHeight="378">
+    <Window.Resources >
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Button x:Name="btnFirstImage" Content="Start" IsEnabled="{Binding First.ReadyDownload}" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top" Width="175" Click="btnFirstImage_Click"/>
+        <Button x:Name="btnSecondImage" Content="Start" IsEnabled="{Binding Second.ReadyDownload}" HorizontalAlignment="Left" Margin="190,193,0,0" VerticalAlignment="Top" Width="175" Click="btnSecondImage_Click"/>
+        <ProgressBar x:Name="prgbImageDownload" HorizontalAlignment="Left" Height="24" Margin="10,270,0,0" VerticalAlignment="Top" Width="533"/>
+        <Image x:Name="imageFirst" Source="{Binding First.Adress}"  Visibility="{Binding First.IsDownloaded, Converter={StaticResource BooleanToVisibilityConverter}}" HorizontalAlignment="Left" Height="150" Margin="10,10,0,0" VerticalAlignment="Top" Width="175" />
+        <TextBox x:Name="txtbFirstImage" Text="" HorizontalAlignment="Left" Height="23" Margin="10,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
+        <Image x:Name="imageSecond"  Source="{Binding Second.Adress}"  Visibility="{Binding Second.IsDownloaded, Converter={StaticResource BooleanToVisibilityConverter}}" HorizontalAlignment="Left" Height="150" Margin="190,10,0,0" VerticalAlignment="Top" Width="175"/>
+        <Image x:Name="imageThird"  Source="{Binding Third.Adress}"  Visibility="{Binding Third.IsDownloaded, Converter={StaticResource BooleanToVisibilityConverter}}" HorizontalAlignment="Left" Height="150" Margin="370,10,0,0" VerticalAlignment="Top" Width="175"/>
+        <Button x:Name="btnThirdImage" Content="Start" IsEnabled="{Binding Third.ReadyDownload}" HorizontalAlignment="Left" Margin="370,193,0,0" VerticalAlignment="Top" Width="173" Click="btnThirdImage_Click"/>
+        <Button x:Name="btnCancelFirstImage" IsEnabled="{Binding First.BegunDownload}" Content="Stop" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="175" Click="btnCancelFirstImage_Click" RenderTransformOrigin="0.507,0.4"/>
+        <Button x:Name="btnDownloadAll" IsEnabled="{Binding Third.ReadyDownload}" Content="Sart all" HorizontalAlignment="Left" Margin="242,309,0,0" VerticalAlignment="Top" Width="75" Click="btnDownloadAll_Click"/>
+        <TextBox x:Name="txtbSecondImage" Text="" HorizontalAlignment="Left" Height="23" Margin="190,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
+        <TextBox x:Name="txtbThirdImage" Text="" HorizontalAlignment="Left" Height="23" Margin="370,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175"/>
+        <Button x:Name="btnCancelSecondImage" IsEnabled="{Binding Second.BegunDownload}" Content="Stop" HorizontalAlignment="Left" Margin="190,218,0,0" VerticalAlignment="Top" Width="175" Click="btnCancelSecondImage_Click"/>
+        <Button x:Name="btnCancelThirdImage" IsEnabled="{Binding Third.BegunDownload}" Content="Stop" HorizontalAlignment="Left" Margin="370,218,0,0" VerticalAlignment="Top" Width="173" Click="btnCancelThirdImage_Click"/>
+    </Grid>
+</Window>

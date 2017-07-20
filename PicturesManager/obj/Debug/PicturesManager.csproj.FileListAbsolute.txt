@@ -1,0 +1,16 @@
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\bin\Debug\PicturesManager.exe.config
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager.csprojResolveAssemblyReference.cache
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\MainWindow.g.cs
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\App.g.cs
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager_MarkupCompile.cache
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager_MarkupCompile.lref
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\MainWindow.baml
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager.g.resources
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager.Properties.Resources.resources
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager.csproj.GenerateResource.Cache
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager.pdb
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\bin\Debug\PicturesManager.exe
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\bin\Debug\PicturesManager.pdb
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\obj\Debug\PicturesManager.exe
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\bin\Debug\Domain.dll
+C:\Users\egor-_000\Documents\Visual Studio 2015\Projects\Macroscop\Prog\PicturesManager\PicturesManager\bin\Debug\Domain.pdb
