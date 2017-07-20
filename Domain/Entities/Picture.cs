@@ -36,7 +36,7 @@ namespace Domain.Entities
             }
         }
 
-        public long ReceiveBytes { get; protected internal set; }
+        public double ReceiveBytes { get; protected internal set; }
 
         private bool isdownloded = false;
 

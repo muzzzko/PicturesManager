@@ -104,8 +104,8 @@ namespace Domain.Services
 
                 lock (WebTools.LockDownload)
                 {
-                    MyProgressBar.Value += (e.BytesReceived-Picture.ReceiveBytes);
-                    Picture.ReceiveBytes = e.BytesReceived;
+                    MyProgressBar.Value += e.ProgressPercentage * Picture.Size / 100.0 - Picture.ReceiveBytes;
+                    Picture.ReceiveBytes = e.ProgressPercentage * Picture.Size / 100.0;
                 }
 
 
@@ -113,7 +113,7 @@ namespace Domain.Services
                 {
                     if (!DownloadCompleted)
                         _progress.Report(MyProgressBar.Value / MyProgressBar.Maximum * 100);
-                    if (Picture.ReceiveBytes == Picture.Size)
+                    if (e.ProgressPercentage == 100)
                     {
                         DownloadCompleted = true;
                     }
